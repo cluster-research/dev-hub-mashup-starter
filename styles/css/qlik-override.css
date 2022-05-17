@@ -1,0 +1,314 @@
+.qvplaceholder,
+.qvobject {
+	flex: 1 1 auto;
+	height: 250px;
+	min-width: 100%;
+	position: relative;
+	padding: 10px;
+	transition: all 200ms ease;
+}
+
+.qvplaceholder {
+	z-index: 6;
+}
+
+.qv-object {
+	background: none !important;
+}
+
+.lui-popover-container {
+	z-index: 9999999;
+}
+
+.qv-collapsed-listbox {
+	background: none;
+	border: none;
+}
+
+.qv-collapsed-listbox.interactive:hover {
+	border: none;
+}
+
+.qv-object .lui-icon,
+.qv-object .lui-caret,
+.qv-object .lui-checkbox__check,
+.qv-object .lui-search__search-icon,
+.qv-object .lui-search__clear-icon,
+.qv-object-kpi .kpi-icon,
+.qvobject .lui-icon {
+	font-family: "LUI icons" !important;
+}
+
+/* .ellips-text[value='secondaryValue.value'] {
+	margin-left: 15px;
+}
+
+.ellips-text[value='secondaryValue.value'] .kpi-value {
+	font-size: 150% !important;
+}
+
+.ellips-text[value='secondaryValue.value'] .kpi-value .ellips-text span {
+	font-size: 150% !important;
+} */
+
+.qv-object.qv-selections-active {
+	border-color: #505278;
+}
+
+.qv-object.qv-object-listbox .qv-object-title .qv-object-title-text {
+	font-weight: 400;
+	font-size: 11px;
+}
+
+.qvt-selection-toolbar {
+	background-color: #ffffff !important;
+	border-color: #505278 !important;
+}
+
+.qv-listbox li {
+	border-bottom: 1px solid;
+	border-color: #cccccc;
+	background-color: #2a2b3d;
+}
+
+.qv-listbox li.serverSelectedExcluded,
+.qv-listbox li.serverExcludedLock,
+.qv-listbox li.serverExcluded {
+	background-color: #ddd;
+	color: gray;
+	border-color: #cccccc;
+}
+
+.qv-listbox li.selected,
+.qv-listbox li.serverSelected,
+.qv-listbox li.serverLocked {
+	background-color: #faa61a;
+	color: white;
+	border-color: #cccccc;
+}
+
+.qv-listbox li.serverAlternative {
+	color: white;
+	background-color: white;
+	border-color: #cccccc;
+}
+
+.qv-listbox li.serverOptional {
+	background-color: #2a2b3d;
+	color: white;
+}
+
+.qv-state-count-bar .state.selected {
+	background: #faa61a;
+}
+
+.qv-collapsed-listbox .title-wrapper .title,
+.qv-object.qv-object-listbox .qv-object-title .qv-object-search {
+	color: #6d6d6d;
+}
+
+.qv-object.qv-object-listbox .qv-object-title .qv-object-title-text {
+	color: #75768d;
+}
+
+.qv-listbox li.selected,
+.qv-listbox .serverSelected,
+.qv-listbox .serverLocked {
+	background-color: #fec200;
+	color: black;
+}
+
+.serverSelected .qv-listbox-text,
+.selected .qv-listbox-text {
+	color: white !important;
+}
+
+.qv-object.qv-selections-active {
+	border-color: #505278;
+}
+
+.qvt-selection-toolbar {
+	background-color: #191a29 !important;
+	border-color: #505278 !important;
+}
+
+.scrollbar-track.vertical .scrollbar-thumb {
+	background-color: #a888df;
+}
+
+.qv-listbox-popover,
+.qv-listbox-popover-small-device,
+.lui-search {
+	background-color: #2a2b3d;
+}
+
+.qv-listbox-popover,
+.qv-listbox-popover-small-device,
+.lui-search {
+	border-color: #313348;
+}
+
+.lui-search .lui-search__search-icon,
+.lui-search .lui-search__clear-icon,
+.lui-search .lui-search__input,
+.sel-toolbar-list button,
+.lui-icon--close:before {
+	color: white;
+}
+
+.lui-popover {
+	box-shadow: 0 1px 4px 1px rgba(196, 192, 192, 0.4);
+}
+
+.measure-title.ellips-text span {
+	color: white;
+}
+
+.qv-pt .cell .left-meta-headers .lui-button.lui-active,
+.qv-pt .cell .top-meta-headers .lui-button.lui-active {
+	background-color: #585c81;
+}
+
+.qv-pt-interactive.qv-pt .cell.parent .qv-pt-expandable:active {
+	background-color: #2a2b3d;
+}
+
+.qv-st-data-cell {
+	color: #949ba2;
+}
+
+.qv-st-header-cell {
+	color: white;
+}
+
+.qv-st-data-cell-color-dark {
+	color: #404040;
+}
+
+.qv-st-data-cell-color-light {
+	color: white;
+}
+
+.qv-object .qv-object-content-container th {
+	color: #f1f1f1 !important;
+	background-color: #2a2b3d;
+}
+
+.touch-off .qv-st-navigatable:not(.qv-st-selections-active) .qv-st-header-sortable:not(.qv-st-custom-header):hover:not(:active):not(.qv-st-header-cell-search-open),
+.touch-off .qv-st-interactive:not(.qv-st-selections-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search:hover:not(:active):not(.qv-st-header-cell-search-open) {
+	background-color: #313247;
+}
+
+.column-width-adjuster .column-width-adjust-line {
+	background: #4b4b6d;
+}
+
+.qv-st-interactive:not(.qv-st-selections-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search {
+	border-left: none;
+	border-bottom: none;
+}
+
+.qv-object .qv-object-content-container th,
+.qv-object-table .qv-object-header,
+.qv-st-data-cell,
+.qv-st-header-cell {
+	border-color: #20202f !important;
+}
+
+.qv-object .qv-object-content-container table tbody tr td:not(:first-child) {
+	border-left: 1px solid #20202f !important;
+}
+
+.qv-st-header-cell-search {
+	border-left: none !important;
+}
+
+.qv-pt .cell.parent.left,
+.qv-pt .cell.empty.left:not(.top-meta),
+.qv-pt .cell,
+.qv-pt .cell.left-meta.empty,
+.qv-pt .cell.top.empty,
+.qv-pt .cell.left-meta.empty.bottom-meta,
+.qv-pt .cell.top.empty.bottom-meta,
+.qv-object-pivot-table .qv-object-header,
+.qv-pt .last-top-row .cell,
+.qv-pt .cell.header.left,
+.qv-pt col {
+	border-color: #20202f;
+}
+
+.qv-pt .cell,
+.qv-pt .cell.header {
+	color: white;
+}
+
+.qv-pt .cell.parent.left.selected,
+.qv-pt .cell.empty.left.selected,
+.qv-pt .cell.left.selected,
+.qv-pt .cell.parent.left.selected-highlighted,
+.qv-pt .cell.empty.left.selected-highlighted,
+.qv-pt .cell.left.selected-highlighted {
+	border-right: 1px solid #2a2b3d;
+	border-bottom: 1px solid #2a2b3d;
+}
+
+.qv-pt .cell.selected-highlighted,
+.qv-pt .cell.selected,
+.qv-st-data-cell.qv-st-data-cell-selected,
+.qv-st-data-cell.qv-st-data-cell-selected-highlighted {
+	background-color: #fec200;
+	color: black;
+}
+
+.qv-pt .cell.selected-highlighted .value,
+.qv-pt .cell.selected .value,
+.qv-st-data-cell.qv-st-data-cell-selected .value,
+.qv-st-data-cell.qv-st-data-cell-selected-highlighted .value {
+	color: black;
+}
+
+.qv-pt .cell.parent.left .lui-icon--plus,
+.qv-pt .cell.empty.left:not(.top-meta) .lui-icon--plus,
+.qv-pt .cell.parent.left .lui-icon--minus,
+.qv-pt .cell.empty.left:not(.top-meta) .lui-icon--minus {
+	color: #ad8500;
+}
+
+.qv-pt .cell.null-value {
+	background-color: #2a2b3d;
+}
+
+.qv-pt .cell .left-meta-headers .lui-button,
+.qv-pt .cell .top-meta-headers .lui-button {
+	background-color: #313348;
+	border-radius: 0;
+	color: #fffcf9;
+	border-color: #515362;
+	transition: all 200ms ease;
+}
+
+.qv-pt .cell .left-meta-headers .lui-button:hover,
+.qv-pt .cell .top-meta-headers .lui-button:hover {
+	background-color: #585c81;
+}
+
+.qv-pt .cell .left-meta-headers .lui-button.lui-active,
+.qv-pt .cell .top-meta-headers .lui-button.lui-active {
+	background-color: #585c81;
+}
+
+.qv-pt-interactive.qv-pt .cell.parent .qv-pt-expandable:active {
+	background-color: #2a2b3d;
+}
+
+.qvobject.kpi-align-center .qv-object.qv-object-kpi {
+	align-items: center;
+}
+
+.qvobject.kpi-align-end .qv-object.qv-object-kpi {
+	align-items: flex-end;
+}
+
+.qvobject.kpi-align-start .qv-object.qv-object-kpi {
+	align-items: flex-start;
+}
