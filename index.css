@@ -282,32 +282,25 @@ button {
 
 /* end buttons css  */
 
+/* start current selections css  */
+
+/* end current selections css  */
+
+/* start navbar css  */
+
 /* end navbar css  */
 
-/* start main content  */
-.content-page {
-	position: absolute;
-	margin-left: 200px;
-	padding: 30px;
-	top: 60px;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	transition: all 0.3s ease-out;
-	-webkit-transition: all 0.3s ease-out;
-	overflow-y: auto;
-	padding-top: 0;
-}
+/* start navigation css  */
 
-.content-page:before {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	z-index: -2;
-	left: 0;
-	right: 0;
-	background: none;
-}
+/* end navigation css  */
+
+/* start right filters  */
+
+/* end right filters  */
+
+/* start main content  */
+
+/* end main content  */
 
 /* nav-toggle is for open menu css  */
 .nav-toggle .content-page {
@@ -330,60 +323,7 @@ button {
 	margin-right: 250px;
 }
 
-.qlik-page {
-	display: none;
-	padding: 0px 20px 0 20px;
-	height: 100%;
-}
-
-.qlik-page.active {
-	display: block;
-}
-
-.view-header {
-	margin: 20px 0;
-	min-height: 50px;
-	padding: 0 15px;
-	padding-left: 0;
-}
-
-.view-header .header-icon {
-	width: 40px;
-	float: left;
-	margin-top: -2px;
-	margin-right: 15px;
-	line-height: 0;
-}
-
-.view-header .header-icon .material-icons {
-	font-size: 40px;
-}
-
-.view-header .header-title {
-	margin-left: 0;
-}
-
-.view-header .header-title h3 {
-	margin-bottom: 2px;
-	font-weight: 300;
-	color: #5f5f5f;
-}
-
-.view-header h3,
-.view-header h4 {
-	font-size: 30px;
-}
-
-.view-header .header-icon {
-	color: #f6a821;
-}
-
-.view-header .description {
-	color: #bababa;
-	font-weight: 300;
-}
-
-/* end main content  */
+/* end nav toggle  */
 
 .panel-full .qvobject {
 	height: 100vh;
